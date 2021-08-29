@@ -1,0 +1,17 @@
+.form-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.form-item{
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: inline;
+}
+
+.form-success-msg{
+  margin-left: -5%;
+  margin-right: -5%;
+  color:gray;
+}
