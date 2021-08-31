@@ -132,7 +132,6 @@ function Home(props) {
     if(filteredEndDate !== ''){
        movieQuery = movieQuery + "&end_date=" + filteredEndDate;
       }
-
       fetch(movieQuery)
       .then((response) => {
         return response.json();
