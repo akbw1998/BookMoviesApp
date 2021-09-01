@@ -29,7 +29,7 @@ export default function LoginButton(props) {
       </Button>
       {/* Open modal pop-up component for login-register onClick of Login */}
       <Modal isOpen={modalIsOpen} onRequestClose={() => setModalisOpen(false) } style = {modalStyle}  > 
-        <LoginRegisterModal baseUrl ={baseUrl}  />   
+        <LoginRegisterModal baseUrl ={baseUrl} />   
       </Modal>
     </Fragment>
   );

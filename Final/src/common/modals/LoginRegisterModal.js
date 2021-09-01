@@ -18,7 +18,7 @@ function LoginRegisterModal(props){
             </Tabs>
             {/* Render LoginForm component onClick of Login Tab */}
             <TabPanel value={selectedTab} index={0}>
-                <LoginForm baseUrl = {baseUrl}/>
+                <LoginForm baseUrl = {baseUrl} />
             </TabPanel>
             {/* Render RegisterForm component onClick of Register Tab */}
             <TabPanel value={selectedTab} index={1}>

@@ -44,7 +44,7 @@ function LoginForm(props){
                 if(rawResponse.ok){ // If response is successful, save access-token and redirect user to homepage.
                   window.sessionStorage.setItem('user-details',JSON.stringify(result));
                   window.sessionStorage.setItem('access-token',rawResponse.headers.get('access-token'));
-                  window.location.href='/';
+                  window.location.reload()
                 }else{
                   const error = new Error();
                   error.message = result.message || 'Something went wrong while fetching response';

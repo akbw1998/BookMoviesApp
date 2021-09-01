@@ -10,6 +10,7 @@ const Controller = () => {
  return (
  <Router>
  <div className="main-container">
+     
  <Route
  exact
  path="/"
@@ -29,6 +30,7 @@ const Controller = () => {
  />
  </div>
  </Router>
+ 
  );
 };
 export default Controller;
